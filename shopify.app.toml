@@ -1,2 +1,2 @@
 name = "test-custom-app"
-web_directories = ["app/*"]git
+web_directories = ["app/*"]
