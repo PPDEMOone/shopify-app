@@ -1,0 +1,20 @@
+{
+  "name": "test-custom-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "shopify": "shopify",
+    "build": "shopify app build",
+    "dev": "shopify app dev",
+    "info": "shopify app info",
+    "generate": "shopify app generate",
+    "deploy": "shopify app deploy"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@shopify/app": "^3.30.1",
+    "@shopify/cli": "^3.30.1"
+  }
+}
