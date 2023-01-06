@@ -1,0 +1,1 @@
+export const dictToArray = <T extends object>(target:T):Function[] => Object.entries(target).map(([_key, value]) => value)

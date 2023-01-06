@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "allowJs": true,
+    "moduleResolution": "Node",
+    "module": "commonjs",
+    "lib": [
+      "ESNext"
+    ],
+    "outDir": "./dist",
+    "removeComments": true,
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "preserveConstEnums": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "typeRoots": [
+      "node_modules/@types",
+      "typings"
+    ],
+    "plugins": [
+      {
+        "transform": "typescript-transform-paths"
+      }
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@src/*": [
+        "./src/*"
+      ],
+    },
+  },
+  // "ts-node": {
+  //   "esm": true,
+  // },
+  "compileOnSave": false,
+  "include": [
+    "backend/src/**/*",
+    "**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
