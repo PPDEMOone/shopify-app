@@ -10,12 +10,12 @@ export class ShopifyAuthController {
   ShopifyAuthService: ShopifyAuthService
 
   @Get('/auth')
-  begin(@Ctx() ctx:Context) {
-    return this.ShopifyAuthService.begin(ctx); 
+  begin(@Ctx() ctx: Context) {
+    return this.ShopifyAuthService.authBegin(ctx);
   }
 
   @Get('/auth/callback')
   authCallback() {
-    
+
   }
 }
